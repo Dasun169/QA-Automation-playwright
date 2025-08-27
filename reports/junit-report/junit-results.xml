@@ -1,0 +1,24 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="20.719654000000002">
+<testsuite name="login.spec.ts" timestamp="2025-08-26T10:50:02.270Z" hostname="chromium" tests="2" failures="0" skipped="0" time="17.931" errors="0">
+<testcase name="Login to the application" classname="login.spec.ts" time="7.387">
+<system-out>
+<![CDATA[Opening URL: https://cog-stg.incubatelabs.com/
+
+[[ATTACHMENT|..\..\src\test-results\login-Login-to-the-application-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\..\src\test-results\login-Login-to-the-application-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Home page validation" classname="login.spec.ts" time="10.544">
+<system-out>
+<![CDATA[Opening URL: https://cog-stg.incubatelabs.com/
+
+[[ATTACHMENT|..\..\src\test-results\login-Home-page-validation-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\..\src\test-results\login-Home-page-validation-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,575 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "Cloud of Goods logo Stylized white text logo on transparent background" [ref=e6] [cursor=pointer]:
+          - /url: https://cog-stg.incubatelabs.com
+          - img "Cloud of Goods logo Stylized white text logo on transparent background" [ref=e7] [cursor=pointer]
+        - generic [ref=e21]:
+          - link "Sign in Account & orders" [ref=e23] [cursor=pointer]:
+            - /url: https://cog-stg.incubatelabs.com/user/sign_in
+            - generic [ref=e24] [cursor=pointer]: Sign in
+            - generic [ref=e25] [cursor=pointer]: Account & orders
+          - button "Open search" [ref=e26] [cursor=pointer]:
+            - img [ref=e27] [cursor=pointer]
+          - button "Cart" [ref=e29] [cursor=pointer]:
+            - img [ref=e30] [cursor=pointer]
+        - generic [ref=e33]:
+          - button "Rentals" [ref=e34] [cursor=pointer]:
+            - link "Rentals" [ref=e35] [cursor=pointer]:
+              - /url: /product-rentals/all
+          - button "Locations" [ref=e36] [cursor=pointer]:
+            - link "Locations" [ref=e37] [cursor=pointer]:
+              - /url: /city-rental
+          - button "Make Money" [ref=e38] [cursor=pointer]:
+            - link "Make Money" [ref=e39] [cursor=pointer]:
+              - /url: /partner
+        - generic [ref=e41]:
+          - button "Menu" [ref=e42] [cursor=pointer]:
+            - img [ref=e43] [cursor=pointer]
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - link "Scooters" [ref=e48] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-scooters
+            - listitem [ref=e49]:
+              - link "Wheelchairs" [ref=e50] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-wheelchairs
+            - listitem [ref=e51]:
+              - link "Baby & Kids" [ref=e52] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/baby_&_kids
+            - listitem [ref=e53]:
+              - link "Medical" [ref=e54] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/medical
+            - listitem [ref=e55]:
+              - link "Party" [ref=e56] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/party
+            - listitem [ref=e57]:
+              - link "Bikes" [ref=e58] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-bikes
+            - listitem [ref=e59]:
+              - link "Golf Carts" [ref=e60] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-golf_carts
+            - listitem [ref=e61]:
+              - link "ATVs" [ref=e62] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-atvs
+            - listitem [ref=e63]:
+              - link "Camping" [ref=e64] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/camping
+            - listitem [ref=e65]:
+              - link "Browse All >>" [ref=e66] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/all
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e72]: My profile
+          - link "Log in" [ref=e73] [cursor=pointer]:
+            - /url: https://cog-stg.incubatelabs.com/user/sign_in
+          - link "Create account" [ref=e74] [cursor=pointer]:
+            - /url: https://cog-stg.incubatelabs.com/user/sign_up
+        - generic [ref=e75]:
+          - generic [ref=e76] [cursor=pointer]:
+            - text: Popular rentals
+            - img [ref=e78] [cursor=pointer]
+          - list [ref=e81]:
+            - listitem [ref=e82]:
+              - link "All rentals" [ref=e83] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/all
+            - listitem [ref=e84]:
+              - link "Scooters" [ref=e85] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-scooters
+            - listitem [ref=e86]:
+              - link "Wheelchairs" [ref=e87] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-wheelchairs
+            - listitem [ref=e88]:
+              - link "Strollers" [ref=e89] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/baby_&_kids-stroller
+            - listitem [ref=e90]:
+              - button "Medical" [ref=e91] [cursor=pointer]:
+                - text: Medical
+                - img [ref=e92] [cursor=pointer]
+            - listitem [ref=e94]:
+              - button "Baby & Kids" [ref=e95] [cursor=pointer]:
+                - text: Baby & Kids
+                - img [ref=e96] [cursor=pointer]
+            - listitem [ref=e98]:
+              - link "Accessories" [ref=e99] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/accessories
+            - listitem [ref=e100]:
+              - link "Camping" [ref=e101] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/camping
+            - listitem [ref=e102]:
+              - link "Sports" [ref=e103] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/sports
+        - separator [ref=e104]
+        - generic [ref=e105]:
+          - generic [ref=e106] [cursor=pointer]:
+            - text: Categories
+            - img [ref=e108] [cursor=pointer]
+          - list [ref=e110]:
+            - listitem [ref=e111]:
+              - button "Mobility" [ref=e112] [cursor=pointer]:
+                - text: Mobility
+                - img [ref=e113] [cursor=pointer]
+            - listitem [ref=e115]:
+              - link "Sports" [ref=e116] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/sports
+            - listitem [ref=e117]:
+              - link "Camping" [ref=e118] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/camping
+            - listitem [ref=e119]:
+              - button "Medical" [ref=e120] [cursor=pointer]:
+                - text: Medical
+                - img [ref=e121] [cursor=pointer]
+            - listitem [ref=e123]:
+              - button "Party" [ref=e124] [cursor=pointer]:
+                - text: Party
+                - img [ref=e125] [cursor=pointer]
+            - listitem [ref=e127]:
+              - button "Tools & equipment" [ref=e128] [cursor=pointer]:
+                - text: Tools & equipment
+                - img [ref=e129] [cursor=pointer]
+            - listitem [ref=e131]:
+              - link "Photography" [ref=e132] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/photography
+            - listitem [ref=e133]:
+              - link "Music" [ref=e134] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/music
+        - separator [ref=e135]
+        - generic [ref=e136]:
+          - generic [ref=e137] [cursor=pointer]:
+            - text: Locations
+            - img [ref=e139] [cursor=pointer]
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - link "Cities" [ref=e143] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/city-rental
+            - listitem [ref=e144]:
+              - link "Attractions" [ref=e145] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/attraction-rental
+            - listitem [ref=e146]:
+              - link "Hotels" [ref=e147] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/hotel-rental
+            - listitem [ref=e148]:
+              - link "Experiences" [ref=e149] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/experience-rental
+            - listitem [ref=e150]:
+              - link "Events" [ref=e151] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/event-rental
+            - listitem [ref=e152]:
+              - link "Cruises" [ref=e153] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/cruise-rentals
+        - separator [ref=e154]
+        - generic [ref=e155]:
+          - generic [ref=e156] [cursor=pointer]:
+            - text: Account
+            - img [ref=e158] [cursor=pointer]
+          - list [ref=e160]:
+            - listitem [ref=e161]:
+              - link "Privacy policy" [ref=e162] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/privacy_policy
+            - listitem [ref=e163]:
+              - link "Terms of use" [ref=e164] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/terms_of_use
+        - separator [ref=e165]
+        - link "FAQs" [ref=e167] [cursor=pointer]:
+          - /url: https://cog-stg.incubatelabs.com/faq
+        - separator [ref=e168]
+        - link "About" [ref=e170] [cursor=pointer]:
+          - /url: https://cog-stg.incubatelabs.com/about
+        - separator [ref=e171]
+      - generic [ref=e174]:
+        - button "Back" [ref=e175] [cursor=pointer]:
+          - img [ref=e176] [cursor=pointer]
+          - text: Back
+        - paragraph [ref=e178]: Baby & kids
+        - list [ref=e179]:
+          - listitem [ref=e180]:
+            - link "View all" [ref=e181] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/baby_&_kids
+          - listitem [ref=e182]:
+            - link "Stroller" [ref=e183] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/baby_&_kids-stroller
+          - listitem [ref=e184]:
+            - link "Car seats" [ref=e185] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/baby_&_kids-car_seats
+          - listitem [ref=e186]:
+            - link "Cribs and bassinets" [ref=e187] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/baby_&_kids-cribs_and_bassinets
+          - listitem [ref=e188]:
+            - link "Playards and swings" [ref=e189] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/baby_&_kids-playards_and_swings
+          - listitem [ref=e190]:
+            - link "Chairs and seats" [ref=e191] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/baby_&_kids-chairs_and_seats
+          - listitem [ref=e192]:
+            - link "Toys" [ref=e193] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/baby_&_kids-toys
+          - listitem [ref=e194]:
+            - link "Walkers" [ref=e195] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/baby_&_kids-walkers
+          - listitem [ref=e196]:
+            - link "Diapering and bathing" [ref=e197] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/baby_&_kids-diapering_and_bathing
+          - listitem [ref=e198]:
+            - link "Miscellaneous" [ref=e199] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/baby_&_kids-Miscellaneous
+      - generic [ref=e202]:
+        - button "Back" [ref=e203] [cursor=pointer]:
+          - img [ref=e204] [cursor=pointer]
+          - text: Back
+        - paragraph [ref=e206]: Mobility
+        - list [ref=e207]:
+          - listitem [ref=e208]:
+            - link "View all" [ref=e209] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility
+          - listitem [ref=e210]:
+            - link "Wheelchairs" [ref=e211] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-wheelchairs
+          - listitem [ref=e212]:
+            - link "Scooters" [ref=e213] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-Scooters
+          - listitem [ref=e214]:
+            - link "Bikes" [ref=e215] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-bikes
+          - listitem [ref=e216]:
+            - link "Golf carts" [ref=e217] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-golf_carts
+          - listitem [ref=e218]:
+            - link "Sports & recreation" [ref=e219] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-sports_&_recreation
+          - listitem [ref=e220]:
+            - link "Slingshot" [ref=e221] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-slingshot
+          - listitem [ref=e222]:
+            - link "Boats" [ref=e223] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-boats
+          - listitem [ref=e224]:
+            - link "E-bikes" [ref=e225] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-e-bikes
+          - listitem [ref=e226]:
+            - link "Motorcycles & trikes" [ref=e227] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-motorcycles_&_trikes
+          - listitem [ref=e228]:
+            - link "Mobility scooters" [ref=e229] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-mobility_scooters
+          - listitem [ref=e230]:
+            - link "Ecvs" [ref=e231] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-ecvs
+          - listitem [ref=e232]:
+            - link "Cars" [ref=e233] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-cars
+          - listitem [ref=e234]:
+            - link "Mopeds" [ref=e235] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-mopeds
+          - listitem [ref=e236]:
+            - link "Accessible vans" [ref=e237] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-accessible%20vans
+          - listitem [ref=e238]:
+            - link "Ultra light mobility scooter" [ref=e239] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-ultra_light_mobility_scooter
+          - listitem [ref=e240]:
+            - link "Test 111" [ref=e241] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-test_111
+          - listitem [ref=e242]:
+            - link "Power chairs" [ref=e243] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-power%20chairs
+      - generic [ref=e246]:
+        - button "Back" [ref=e247] [cursor=pointer]:
+          - img [ref=e248] [cursor=pointer]
+          - text: Back
+        - paragraph [ref=e250]: Medical
+        - list [ref=e251]:
+          - listitem [ref=e252]:
+            - link "View all" [ref=e253] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/medical
+          - listitem [ref=e254]:
+            - link "Bath & shower" [ref=e255] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/medical-bath_&_shower
+          - listitem [ref=e256]:
+            - link "Hospital beds" [ref=e257] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/medical-hospital%20beds
+          - listitem [ref=e258]:
+            - link "Respiratory aids & accessories" [ref=e259] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/medical-respiratory_aids_&_accessories
+          - listitem [ref=e260]:
+            - link "Walking aids" [ref=e261] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/medical-walking_aids
+          - listitem [ref=e262]:
+            - link "Daily living aids" [ref=e263] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/medical-daily_living_aids
+      - generic [ref=e266]:
+        - button "Back" [ref=e267] [cursor=pointer]:
+          - img [ref=e268] [cursor=pointer]
+          - text: Back
+        - paragraph [ref=e270]: Party
+        - list [ref=e271]:
+          - listitem [ref=e272]:
+            - link "View all" [ref=e273] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/party
+          - listitem [ref=e274]:
+            - link "Bounce houses" [ref=e275] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/party-bounce_houses
+      - generic [ref=e278]:
+        - button "Back" [ref=e279] [cursor=pointer]:
+          - img [ref=e280] [cursor=pointer]
+          - text: Back
+        - paragraph [ref=e282]: Tools & Equipment
+        - list [ref=e283]:
+          - listitem [ref=e284]:
+            - link "View all" [ref=e285] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/tools_&_equipment
+          - listitem [ref=e286]:
+            - link "Power generators" [ref=e287] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/tools_&_equipment-power_generators
+      - generic [ref=e290]:
+        - button "Back" [ref=e291] [cursor=pointer]:
+          - img [ref=e292] [cursor=pointer]
+          - text: Back
+        - paragraph [ref=e294]: Photography
+        - list [ref=e295]:
+          - listitem [ref=e296]:
+            - link "View all" [ref=e297] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/product-rentals/photography
+      - generic [ref=e299]:
+        - generic [ref=e300]:
+          - generic [ref=e303]:
+            - searchbox "Search for products" [ref=e304]
+            - status [ref=e305]
+            - button "Search input button" [ref=e306] [cursor=pointer]:
+              - img [ref=e307] [cursor=pointer]
+          - button "Close search" [ref=e311] [cursor=pointer]:
+            - img [ref=e312] [cursor=pointer]
+        - generic [ref=e314]:
+          - paragraph [ref=e315]: Discover More
+          - list [ref=e317]:
+            - listitem [ref=e318]:
+              - link "Heavy Duty Mobility Scooter" [ref=e319] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/mobility-scooters-rentals/heavy-duty-mobility-scooter-52
+            - listitem [ref=e320]:
+              - link "Double Stroller" [ref=e321] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/baby_&_kids-strollers-rentals/double-stroller-6
+            - listitem [ref=e322]:
+              - link "Ultra Light Standard Wheelchair" [ref=e323] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/mobility-wheelchairs-rentals/ultra-light-standard-wheelchair-70
+            - listitem [ref=e324]:
+              - link "Slingshot" [ref=e325] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/slingshot-rentals/slingshot-171
+  - generic [ref=e333]:
+    - heading "Welcome back - login!" [level=3] [ref=e334]
+    - generic [ref=e335]:
+      - generic:
+        - generic:
+          - link "google_icon Continue with Google" [ref=e336] [cursor=pointer]:
+            - /url: https://cog-stg.incubatelabs.com/user/google/authenticate
+            - img "google_icon" [ref=e337] [cursor=pointer]
+            - generic [ref=e338] [cursor=pointer]: Continue with Google
+          - paragraph [ref=e339]:
+            - generic [ref=e340]: or
+    - generic [ref=e343]:
+      - generic [ref=e344]:
+        - generic [ref=e345]:
+          - text: Email
+          - generic [ref=e346]: "*"
+        - textbox "Email* Password*" [ref=e347]
+      - generic [ref=e348]:
+        - generic [ref=e349]:
+          - text: Password
+          - generic [ref=e350]: "*"
+        - textbox "Enter password or OTP" [ref=e351]
+        - paragraph [ref=e352]:
+          - text: Login to continue. Don’t have the password?
+          - generic [ref=e353]:
+            - link "Click HERE" [ref=e354] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text: to receive an one time password in your email
+            - text: .
+      - button "Log in" [ref=e356] [cursor=pointer]: Log in 
+      - link "Forgot password?" [ref=e358] [cursor=pointer]:
+        - /url: https://cog-stg.incubatelabs.com/user/forgot_password
+      - paragraph [ref=e360]:
+        - text: Don't have an account yet?
+        - link "Sign up" [ref=e361] [cursor=pointer]:
+          - /url: https://cog-stg.incubatelabs.com/user/sign_up
+  - contentinfo [ref=e362]:
+    - generic [ref=e363]:
+      - heading "Before you hit the road..." [level=2] [ref=e364]
+      - paragraph [ref=e365]: Sign up for our newsletter to get the latest news, updates and promotions before you set off on your next adventure.
+      - generic [ref=e366]:
+        - generic [ref=e371]:
+          - textbox "Enter your email" [ref=e374]
+          - textbox "Zip code (optional)" [ref=e377]
+          - button "Subscribe" [ref=e380] [cursor=pointer]
+        - paragraph [ref=e383]:
+          - text: Stay updated with our latest deals, inspirations and notifications. You consent to receiving email and/or SMS marketing messages according to our
+          - link "terms of use." [ref=e384] [cursor=pointer]:
+            - /url: https://cog-stg.incubatelabs.com/terms_of_use
+            - generic [ref=e385] [cursor=pointer]: terms of use.
+          - text: You can unsubscribe anytime.
+      - generic [ref=e387]:
+        - generic [ref=e388]:
+          - heading "Cloud of Goods" [level=2] [ref=e389]
+          - list [ref=e390]:
+            - listitem [ref=e391]:
+              - link "About" [ref=e392] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/about
+            - listitem [ref=e393]:
+              - link "Blog" [ref=e394] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/blog
+            - listitem [ref=e395]:
+              - link "Videos" [ref=e396] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/videos
+            - listitem [ref=e397]:
+              - link "Reviews" [ref=e398] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/reviews-home
+            - listitem [ref=e399]:
+              - link "Coupons & Promotions" [ref=e400] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/promo-code
+            - listitem [ref=e401]:
+              - link "Price list" [ref=e402] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/price-list
+            - listitem [ref=e403]:
+              - link "FAQ" [ref=e404] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/faq
+            - listitem [ref=e405]:
+              - link "We're hiring! 👋" [ref=e406] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/careers
+            - listitem [ref=e407]:
+              - link "Shops" [ref=e408] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/browse-shops
+            - listitem
+        - generic [ref=e409]:
+          - heading "Locations" [level=2] [ref=e410]
+          - list [ref=e411]:
+            - listitem [ref=e412]:
+              - link "Cities" [ref=e413] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/city-rental
+            - listitem [ref=e414]:
+              - link "Neighborhoods" [ref=e415] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/neighborhood-rental
+            - listitem [ref=e416]:
+              - link "Attractions" [ref=e417] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/attraction-rental
+            - listitem [ref=e418]:
+              - link "Hotels" [ref=e419] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/hotel-rental
+            - listitem [ref=e420]:
+              - link "Experiences" [ref=e421] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/experience-rental
+            - listitem [ref=e422]:
+              - link "Events" [ref=e423] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/event-rental
+            - listitem [ref=e424]:
+              - link "Cruises" [ref=e425] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/cruise-rentals
+        - generic [ref=e426]:
+          - heading "Browse Rentals" [level=2] [ref=e427]
+          - list [ref=e428]:
+            - listitem [ref=e429]:
+              - link "Scooters" [ref=e430] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-scooters
+            - listitem [ref=e431]:
+              - link "Wheelchairs" [ref=e432] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-wheelchairs
+            - listitem [ref=e433]:
+              - link "Strollers" [ref=e434] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/baby_&_kids-stroller
+            - listitem [ref=e435]:
+              - link "Slingshots" [ref=e436] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/mobility-slingshot
+            - listitem [ref=e437]:
+              - link "Medical Equipment" [ref=e438] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/medical
+            - listitem [ref=e439]:
+              - link "Bounce houses" [ref=e440] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/party-bounce_houses
+            - listitem [ref=e441]:
+              - link "Camping" [ref=e442] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/camping
+            - listitem [ref=e443]:
+              - link "Cars" [ref=e444] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/car-rentals
+            - listitem [ref=e445]:
+              - link "Browse all" [ref=e446] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/product-rentals/all
+        - generic [ref=e447]:
+          - heading "Earn Money" [level=2] [ref=e448]
+          - list [ref=e449]:
+            - listitem [ref=e450]:
+              - link "Setup your rental shop" [ref=e451] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/partner
+            - listitem [ref=e452]:
+              - link "Become an agent" [ref=e453] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/agent-signup
+            - listitem [ref=e454]:
+              - link "How to start rental business" [ref=e455] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/blog/how-to-start-a-scooter-rental-business
+        - generic [ref=e456]:
+          - heading "Contact" [level=2] [ref=e457]
+          - list [ref=e458]:
+            - listitem [ref=e459]:
+              - link "Message us" [ref=e460] [cursor=pointer]:
+                - /url: https://cog-stg.incubatelabs.com/contact
+            - listitem [ref=e461]:
+              - link "Media inquiries" [ref=e462] [cursor=pointer]:
+                - /url: mailto:press@cloudofgoods.com
+            - listitem [ref=e463]:
+              - link "mailto:info@cloudofgoods.com" [ref=e464] [cursor=pointer]:
+                - /url: mailto:test@cloudofgoods.com
+                - text: test@cloudofgoods.com
+            - listitem [ref=e465]:
+              - link "(407)545-3103" [ref=e466] [cursor=pointer]:
+                - /url: tel:+14075453103
+            - listitem [ref=e467]:
+              - generic [ref=e468]: 3730 Coconut Creek Parkway, Suite 110,
+            - listitem [ref=e469]:
+              - generic [ref=e470]: Coconut Creek, FL.33066
+            - listitem [ref=e471]:
+              - link "facebook" [ref=e472] [cursor=pointer]:
+                - /url: https://www.facebook.com/CloudofGoods/
+                - generic [ref=e473] [cursor=pointer]: 
+              - link "instagram" [ref=e474] [cursor=pointer]:
+                - /url: https://www.instagram.com/cloudofgoods/
+                - generic [ref=e475] [cursor=pointer]: 
+              - link "twitter" [ref=e476] [cursor=pointer]:
+                - /url: https://twitter.com/cloudofgoods
+                - img [ref=e477] [cursor=pointer]
+              - link "Tripadvisor" [ref=e478] [cursor=pointer]:
+                - /url: https://www.tripadvisor.com/Attraction_Review-g60713-d15181586-Reviews-Cloud_of_Goods-San_Francisco_California.html
+                - generic [ref=e479] [cursor=pointer]: 
+            - listitem [ref=e480]:
+              - link "Payment methods" [ref=e481] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e482]:
+              - generic "AMEX payment method" [ref=e484]: 
+              - generic "MasterCard payment method" [ref=e486]: 
+              - generic "VISA payment method" [ref=e488]: 
+      - generic [ref=e490]:
+        - list [ref=e492]:
+          - listitem [ref=e493]:
+            - link "Terms|" [ref=e494] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/terms_of_use
+              - text: Terms
+              - generic [ref=e495] [cursor=pointer]: "|"
+          - listitem [ref=e496]:
+            - link "Privacy|" [ref=e497] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/privacy_policy
+              - text: Privacy
+              - generic [ref=e498] [cursor=pointer]: "|"
+          - listitem [ref=e499]:
+            - link "Rental agreement |" [ref=e500] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/rental_agreement
+              - text: Rental agreement
+              - generic [ref=e501] [cursor=pointer]: "|"
+          - listitem [ref=e502]:
+            - link "Cancellation policy |" [ref=e503] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/cancellation_policy
+              - text: Cancellation policy
+              - generic [ref=e504] [cursor=pointer]: "|"
+          - listitem [ref=e505]:
+            - link "Damage waiver policy" [ref=e506] [cursor=pointer]:
+              - /url: https://cog-stg.incubatelabs.com/damage_waiver_policy
+        - paragraph [ref=e508]: © 2025 Rental Commerce Inc. All rights reserved.
+  - img [ref=e511]
+```

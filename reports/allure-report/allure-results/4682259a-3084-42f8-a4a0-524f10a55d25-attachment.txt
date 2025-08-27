@@ -1,0 +1,2 @@
+Opening URL: https://cog-stg.incubatelabs.com/
+C:\iLabs\Test-practice-02\src\snapshots\homepage.png is re-generated, writing actual.
