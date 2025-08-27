@@ -20,4 +20,15 @@ const configs: { [key: string]: EnvConfig } = {
         username: '',
         password: ''
     }
+};
+
+const targetEnv = (process.env.ENV || 'stag').trim();
+
+console.log(`TARGET ENV: ${targetEnv}`);
+console.log("Available configs = ", Object.keys(configs));
+
+if(!configs[targetEnv]){
+    throw new Error(`Invalid target environment: ${targetEnv}`);
 }
+
+export const envConfig = configs[targetEnv];
