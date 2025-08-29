@@ -28,7 +28,7 @@ export default defineConfig({
   outputDir: 'src/test-results',
 
   use: {
-    headless: false,
+    headless: true,
     screenshot: 'on',
     trace: 'on',
   },
